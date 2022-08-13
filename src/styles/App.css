@@ -1,0 +1,91 @@
+body {
+  font-size: 14px!important;
+}
+
+.min-width-120 {
+  min-width: 120px;
+}
+
+.min-width-200 {
+  min-width: 200px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.custom-user-guide{
+  color: #aaa;
+}
+
+.custom-user-guide:hover{
+  color: #000;
+}
+
+.text-14px{
+  font-size: 14px!important;
+}
+
+.text-13px{
+  font-size: 13px!important;
+}
+
+.text-sm{
+  font-size: 12px;
+}
+
+.text-tiny{
+  font-size: 10px;
+}
+
+.w-33 {
+  width: 33%!important;
+}
+
+.top-6px {
+  top: 6px;
+}
+
+.custom-icon {
+  position: absolute;
+  top: 3.5px;
+  margin-left: 3px;
+  color: #ccc;
+}
+
+.icon-parent:hover .custom-icon{
+  cursor: pointer;
+  color: #666;
+}
+
+.icon-parent:hover {
+  cursor: pointer;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border: none;
+  box-shadow: none;
+  outline: 0 none;
+  border-color: rgba(126, 239, 104, 0.8);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
